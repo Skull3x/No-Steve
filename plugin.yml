@@ -1,0 +1,6 @@
+name: No-Steve
+main: NoSteve\Main
+version: DEV v1.0
+author: Skull3x
+api: [1.0.0, 2.0.0]
+description: Block's any steve from joining your server
