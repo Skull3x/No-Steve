@@ -1,5 +1,7 @@
 <?php
 
+namespace NoSteve;
+
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\player\PlayerJoinEvent;
