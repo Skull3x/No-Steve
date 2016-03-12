@@ -12,6 +12,6 @@ class Main extends PluginBase implements Listener {
     public function onJoin(PlayerJoinEvent $event){
     $player = $event->getPlayer();
     if($player->getName() === "steve"){
-    //$player->kick(Color::RED . "In order to join this server\nYou must change your name\n \n \nTo something other\nThan Steve!");
-  } // Still lively working
+    $player->kick(Color::RED ."In order to join this server" .Color::YELLOW ."\nYou must change your name" .Color::Aqua ." .Color::GREEN ."\n \n \nTo something other" .Color::RED ."\nThan Steve!");
+  }
 }
