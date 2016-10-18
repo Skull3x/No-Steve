@@ -13,7 +13,7 @@ class Main extends PluginBase implements Listener {
 
 public function onJoin(PlayerJoinEvent $event){
     $player = $event->getPlayer();
-    if($player->getName() === "steve"){
-    $player->kick(Color::RED ."In order to join this server" .Color::YELLOW ."\nYou must change your name" .Color::AQUA ."\n \n \nTo something other" .Color::GREEN ."\nThan Steve!");
+    if($player->getName() == "steve" || "Steve"){
+        $player->kick(Color::RED . "Steve is a(an) invalid name");
     }
 }
